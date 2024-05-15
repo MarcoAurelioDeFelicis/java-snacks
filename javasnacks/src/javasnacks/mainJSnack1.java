@@ -1,0 +1,36 @@
+package javasnacks;
+
+import java.util.Scanner;
+
+import javax.print.DocFlavor.INPUT_STREAM;
+
+/**
+ * scrivi una classe studente con i seguenti attributi:
+ * nome, cognome, età.
+ * implementa un costruttore che accetta tre parametri per 
+ * inizializzare questi attributi.
+ * aggiungi un metodo che restituisce una stringa concatenate dei valori
+ * (es. *Anselmo Bitta, 24 anni*).
+ */
+
+public class mainJSnack1 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner (System.in);
+		
+		 System.out.println("inserisci nome utente: ");
+		 String name = scan.nextLine();
+		 
+		 
+		 System.out.println("inserisci cognome utente: ");
+		 String surname = scan.nextLine();
+		 
+		 System.out.println("inserisci età utente: ");
+		 int age = scan.nextInt();
+		 
+		 Studente userDati = new Studente(name, surname, age);
+		 
+		 System.out.println("Studente: " + userDati.StudentStringified()); 
+	}
+	
+}
