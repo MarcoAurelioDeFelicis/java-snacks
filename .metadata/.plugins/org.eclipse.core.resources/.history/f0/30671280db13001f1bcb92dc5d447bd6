@@ -27,7 +27,7 @@ public class Studente {
 	}
 	
 	//CREAZIONE METODO
-	public String studentStringified () {
+	public String StudentStringified () {
 		return name + " " + surname + ", " + age + " anni";
 	}
 }

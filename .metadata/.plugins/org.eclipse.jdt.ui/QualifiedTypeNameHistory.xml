@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.print.DocFlavor.INPUT_STREAM"/>
+    <fullyQualifiedTypeName name="javasnacks.studente"/>
+    <fullyQualifiedTypeName name="javasnacks.mainJSnack1"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javasnacks.RisposteUtente"/>
+    <fullyQualifiedTypeName name="javasnacks.ContoBancario"/>
+    <fullyQualifiedTypeName name="javasnacks.Studente"/>
+</qualifiedTypeNameHistroy>

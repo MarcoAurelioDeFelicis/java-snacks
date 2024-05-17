@@ -24,7 +24,7 @@ public class ContoBancario {
 	
 	//DEPOSITARE ...
 	public double depositoDenaro (double denaro) {
-		if (denaro != denaro ) {
+		if (denaro != double ) {
 		System.out.println("RIPROVA!! quanto vuoi depositare?"+this.depositoDenaro(denaro));
 		}
 		

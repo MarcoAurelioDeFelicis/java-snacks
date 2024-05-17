@@ -1,0 +1,9 @@
+package javasnacks;
+
+public class Jsnack3main {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

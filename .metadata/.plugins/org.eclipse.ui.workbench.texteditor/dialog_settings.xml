@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="System.out.println(&quot;quanto vuoi PRELEVARE? : &quot;);"/>
+		<list key="findhistory">
+			<item value="System.out.println(&quot;quanto vuoi PRELEVARE? : &quot;);"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="249"/>
+		<item key="DIALOG_Y_ORIGIN" value="240"/>
+	</section>
+</section>

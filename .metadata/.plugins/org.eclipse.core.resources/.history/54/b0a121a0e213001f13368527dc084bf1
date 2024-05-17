@@ -1,0 +1,39 @@
+package javasnacks;
+
+
+
+public class RegistroStudenti {
+	
+	//Array vuoto
+	private Studente [] studentiList;
+	private int io = 0; //Casella Array
+	private int iopiu = io + 1;
+	
+	//Costruttore
+	public RegistroStudenti () {
+			
+		studentiList = new Studente[5];
+		
+	}
+	
+	//Metodo
+	public void addStudente (Studente studente) {
+		if (io < studentiList.length) {
+			studentiList = new Studente[iopiu];
+		}
+		
+		studentiList[io] = studente;
+		io ++ ;
+		
+		
+	}
+	
+	//Stampa
+	public void stampaStudenti () {
+		for (int i = 0; i < studentiList.length; i++) {
+			System.out.println(studentiList[i].studentStringified());
+			
+		}
+	}
+}
+

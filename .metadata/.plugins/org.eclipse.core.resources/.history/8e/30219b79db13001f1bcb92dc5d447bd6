@@ -30,7 +30,7 @@ public class JSnack1main {
 		 
 		 Studente userDati = new Studente(name, surname, age);
 		 
-		 System.out.println("Studente: " + userDati.studentStringified()); 
+		 System.out.println("Studente: " + userDati.studentStringified(); 
 	}
 	
 }
