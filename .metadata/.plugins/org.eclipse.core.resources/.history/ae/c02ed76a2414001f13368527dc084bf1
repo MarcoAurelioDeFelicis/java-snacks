@@ -15,7 +15,6 @@ public class ContoBancario {
 	
 	private String iban;
 	private double saldo;
-	private String stringDenaro;
 
 	
 	public ContoBancario(String iban) {
@@ -23,14 +22,9 @@ public class ContoBancario {
 		this.saldo = 0;
 	}
 	
-	public void Denaro (String stringDenaro) {
-		this.stringDenaro = stringDenaro;
-	}
-
 	//DEPOSITARE ...
 	public double depositoDenaro (double denaro) {
-		
-		if (denaro == stringDenaro) {
+		if (denaro != double ) {
 		System.out.println("RIPROVA!! quanto vuoi depositare?"+this.depositoDenaro(denaro));
 		}
 		
@@ -42,7 +36,7 @@ public class ContoBancario {
 	
 	//PRELIEVO ... (con void invece di double)
 	public void prelievoDenaro (double denaro) {
-		if (denaro == ) {
+		if (denaro != double) {
 			System.out.println("RIPROVA!! quanto vuoi prelevare?");
 		    this.prelievoDenaro(denaro); //con void 		
 			}

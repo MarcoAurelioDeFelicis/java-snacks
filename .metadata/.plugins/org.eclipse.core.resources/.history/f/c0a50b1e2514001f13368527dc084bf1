@@ -24,11 +24,11 @@ public class ContoBancario {
 	}
 	
 	public void Denaro (String stringDenaro) {
-		this.stringDenaro = stringDenaro;
 	}
 
 	//DEPOSITARE ...
 	public double depositoDenaro (double denaro) {
+		this.stringDenaro = stringDenaro;
 		
 		if (denaro == stringDenaro) {
 		System.out.println("RIPROVA!! quanto vuoi depositare?"+this.depositoDenaro(denaro));
